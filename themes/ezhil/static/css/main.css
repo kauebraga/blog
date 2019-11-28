@@ -10,6 +10,7 @@ a, a:hover {
     color: #a00;
     text-decoration: none;
     word-break: break-word;
+    font-weight: 550;
 }
 
 html,button,input,select,textarea {
@@ -169,6 +170,7 @@ ul {
 .site-title a {
 	color: #333;
 	text-decoration: none !important;
+	font-weight: 550;
 }
 
 .post ul li {
@@ -400,3 +402,33 @@ ul {
         margin-top: 10px;
     }
 }
+
+/* Teste para o id do titulo dos posts */
+
+#teste {
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+}
+
+
+/* Tables from https://github.com/tummychow/lanyon-hugo/blob/master/static/css/poole.css */
+
+table {
+  margin-bottom: 1rem;
+  width: 50%;
+  /* border: 1px solid #e5e5e5; */
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: .25rem .5rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+
